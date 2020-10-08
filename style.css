@@ -146,6 +146,8 @@ p {
 @media only screen and (max-width: 1000px){
     html{
         width: 100vw;
+        display: flex;
+        justify-content: center;
     }
 
     header {
@@ -177,7 +179,7 @@ p {
     }
 
     main {
-        margin: 0;
+        margin: auto;
     }
 
     nav > ul {
