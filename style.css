@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    padding: 3rem 0 3rem 0;
+    padding: 1.5rem 0 1.5rem 0;
     background-color: none;
     background-image: url(photos/longcover.png);
     background-size: 130% 100%;
@@ -26,7 +26,7 @@ h2 {
     justify-content: center;
     font-family: 'Josefin Slab', serif;
     margin: 0;
-    padding: 2rem;
+    padding: 1rem;
     text-shadow: 2px 2px 2px gray;
     color:rgb(7, 41, 3);
 }
