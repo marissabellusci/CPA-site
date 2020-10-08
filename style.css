@@ -142,3 +142,50 @@ p {
     letter-spacing: 2px;
     color: black;
 }
+
+@media only screen and (max-width: 1000px){
+    html{
+        width: 100vw;
+    }
+
+    header {
+        background-size: fill;
+    }
+
+
+    .fixed-nav .logo {
+        max-width: fit-content;
+    
+    }
+
+    h1 {
+        width: 100vw;
+        font-size: 15vw;
+    }
+
+    h2 {
+        width: 90vw;
+        font-size: 10vw;
+        margin: auto;
+    }
+
+    nav{
+        width: 100vw;
+        left: 0;
+        right: 0;
+        margin: 0;
+    }
+
+    main {
+        margin: 0;
+    }
+
+    nav > ul {
+        width: 100%;
+    }
+
+    nav > ul > li {
+        font-size: 4vw;
+        padding: 0;
+    }
+}
