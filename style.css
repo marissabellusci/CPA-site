@@ -1,0 +1,112 @@
+html {
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 87);
+    width: 100vw;
+
+}
+
+h1,
+h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Josefin Slab', serif;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+nav {
+    width: 100%;
+    left: 0;
+}
+
+.fixed-nav nav {
+    position: fixed;
+    top: 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 87, 0.1);
+}
+
+.fixed-nav .logo {
+    max-width: 500px;
+
+}
+
+.fixed-nav .site-wrap {
+    transform: scale(1);
+  }
+  
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: rgb(0, 0, 87);
+    color: white;
+    font-size: 2rem;
+    width: 100vw;
+    font-family: 'Josefin Slab', serif;
+    margin: 0;
+}
+
+nav > ul > li {
+    padding: 1rem 0 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: dashed rgb(0, 0, 87);
+    flex: 1;
+    transition: all 0.2s;
+}
+
+nav > ul > li:hover {
+    background-color: white;
+    color: rgb(0, 0, 87);
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+}
+
+li.logo {
+    max-width: 0;
+    overflow: hidden;
+    background: white;
+    transition: all .5s;
+    font-weight: 600;
+    font-size: 4rem;
+    border: none;
+    width: fit-content;
+    left: 0;
+}
+  
+.fixed-nav li.logo {
+      max-width: 500px;
+  
+}
+  
+li.logo a {
+    color: rgb(0, 0, 87);
+}
+
+main {
+    width: 60vw;
+    margin: 1rem auto 1rem auto;
+    box-shadow: 10px 10px 12px rgba(0, 0, 87, 0.295);
+    border: solid rgba(0, 0, 87, 0.089);
+    padding: 1rem 5rem 1rem 5rem;
+}
+
+p {
+    overflow: wrap;
+    font-size: 25px;
+    font-family: 'open-sans', sans-serif;
+    letter-spacing: 2px;
+}
